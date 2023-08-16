@@ -1,13 +1,14 @@
-// import logo from './logo.svg';
-
 import './App.css';
+
+import HomeContainer from './containers/HomeContainer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       <h1>Hello world</h1>
-      </header>
+      {/* <header className="App-header">
+       <Users data={{name:"aksh",age:23}}/>
+      </header> */}
+     < HomeContainer />
     </div>
   );
 }
